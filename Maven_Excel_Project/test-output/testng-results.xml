@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="131305" started-at="2019-03-19T16:09:26Z" finished-at="2019-03-19T16:11:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="131305" started-at="2019-03-19T16:09:26Z" finished-at="2019-03-19T16:11:38Z">
+      <class name="Maven_Excel_Package.MerquerytourDemo">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="openBrowser" is-config="true" duration-ms="4687" started-at="2019-03-19T16:09:22Z" finished-at="2019-03-19T16:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterApplicationURL()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="enterApplicationURL" is-config="true" duration-ms="4027" started-at="2019-03-19T16:09:26Z" finished-at="2019-03-19T16:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationURL -->
+        <test-method status="PASS" signature="maximizeWindow()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="maximizeWindow" is-config="true" duration-ms="1172" started-at="2019-03-19T16:09:30Z" finished-at="2019-03-19T16:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeWindow -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="getAllCookies" is-config="true" duration-ms="10" started-at="2019-03-19T16:09:32Z" finished-at="2019-03-19T16:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginWithValidDetails(java.lang.String, java.lang.String)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="loginWithValidDetails" duration-ms="50100" started-at="2019-03-19T16:09:32Z" data-provider="dp" finished-at="2019-03-19T16:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidDetails -->
+        <test-method status="PASS" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="captureScreenshot" is-config="true" duration-ms="1" started-at="2019-03-19T16:10:23Z" finished-at="2019-03-19T16:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidDetails status=SUCCESS method=MerquerytourDemo.loginWithValidDetails(java.lang.String, java.lang.String)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="getAllCookies" is-config="true" duration-ms="12" started-at="2019-03-19T16:10:23Z" finished-at="2019-03-19T16:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginWithValidDetails(java.lang.String, java.lang.String)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="loginWithValidDetails" duration-ms="72756" started-at="2019-03-19T16:10:23Z" data-provider="dp" finished-at="2019-03-19T16:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidDetails -->
+        <test-method status="PASS" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="captureScreenshot" is-config="true" duration-ms="1" started-at="2019-03-19T16:11:35Z" finished-at="2019-03-19T16:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidDetails status=SUCCESS method=MerquerytourDemo.loginWithValidDetails(java.lang.String, java.lang.String)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="getAllCookies" is-config="true" duration-ms="23" started-at="2019-03-19T16:11:35Z" finished-at="2019-03-19T16:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="FAIL" signature="loginWithValidDetails(java.lang.String, java.lang.String)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="loginWithValidDetails" duration-ms="1884" started-at="2019-03-19T16:11:35Z" data-provider="dp" finished-at="2019-03-19T16:11:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suvid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passw]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-VHCMS63', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Win10\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 298d412d2c98004f1b46e3851e2103db
+*** Element info: {Using=xpath, value=//img[@src='/images/masts/mast_flightfinder.gif']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-VHCMS63', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Win10\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 298d412d2c98004f1b46e3851e2103db
+*** Element info: {Using=xpath, value=//img[@src='/images/masts/mast_flightfinder.gif']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at Maven_Excel_Package.MerquerytourDemo.loginWithValidDetails(MerquerytourDemo.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidDetails -->
+        <test-method status="PASS" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="captureScreenshot" is-config="true" duration-ms="491" started-at="2019-03-19T16:11:37Z" finished-at="2019-03-19T16:11:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidDetails status=FAILURE method=MerquerytourDemo.loginWithValidDetails(java.lang.String, java.lang.String)[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="deleteAllCookies" is-config="true" duration-ms="0" started-at="2019-03-19T16:11:38Z" finished-at="2019-03-19T16:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="dbConnectionClose()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="dbConnectionClose" is-config="true" duration-ms="0" started-at="2019-03-19T16:11:38Z" finished-at="2019-03-19T16:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnectionClose -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Maven_Excel_Package.MerquerytourDemo@7d9d1a19]" name="close" is-config="true" duration-ms="112" started-at="2019-03-19T16:11:38Z" finished-at="2019-03-19T16:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Maven_Excel_Package.MerquerytourDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
