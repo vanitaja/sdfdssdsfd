@@ -18,8 +18,7 @@ public class ExcelData
 	{
 		FileInputStream fis= new FileInputStream(file);
 		workbook=new XSSFWorkbook(fis);
-		System.out.println("asdsa");
-	}
+		}
 	
 	public int getRowCount(String sheetname)
 	{
